@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/inter-variablefont_slntwght-webfont.woff);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Kaushan Script';
+    src: url(fonts/kaushanscript-regular-webfont.woff);
+    font-style: normal;
+}
+
+#banner {
+    background: linear-gradient(rgba(255, 21, 0, 0.7),#9824ebb8), url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    width: 8.75rem;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+
+.banner-text {
+    text-align: center;
+    color: white;
+    padding: 11.25rem;
+}
+
+.banner-text h1 {
+    font-size: 8.125em;
+    font-family: Kaushan Script;
+}
+
+.banner-text p {
+    font-size: 1.875em;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
